@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1025px) {
+  .container {
+    max-width: 960px !important;
+  }
+  .aboutUs nav.d-flex {
+    position: static;
+    justify-content: center !important;
+  }
+  .tab-content {
+    .row.align-items-center {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+
+      .col-lg-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+      }
+    }
+
+    .rightText {
+      margin-top: 35px !important;
+    }
+
+    .leftPic {
+      order: 2;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 769px) {
+  header{
+    background: #3d2748;
+  }
+  .underHeader .undImg {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .underHeader .undImg {
+    margin-top: 0;
+  }
+  .threat, .service, .advice {
+    margin: 15px;
+  }
+  .row.mb-5 {
+    margin-bottom: 0 !important;
+  }
+  .nav {
+    justify-content: flex-start !important;
+  }
+
+  .quote .bigQuote {
+    animation: none;
+    margin: 0 15px;
+  }
+
+  .mainThreats h3.heading {
+    font-size: 26px;
+  }
+  .rightText {
+    margin-top: 25px !important;
+  }
+  .aboutUs h3 {
+    font-size: 26px;
+  }
+  .quoteAuthorImg {
+    display: none;
+  }
+  .quoteAuthor p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .rightText {
+    margin-top: 15px !important;
+  }
+  .navbar-brand {
+    span.pcLogo {
+      display: none;
+    }
+
+    span.mobileLogo {
+      display: block !important;
+
+      span {
+        color: #8176ff
+      }
+    }
+  }
+  footer span {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  a.btnCustMain {
+    left: 30px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+}
