@@ -33,11 +33,13 @@
 
 
 @media only screen and (max-width: 992px) {
-
+.container{
+  max-width: 960px;
+}
 }
 
 @media only screen and (max-width: 769px) {
-  header{
+  header {
     background: #3d2748;
   }
   .underHeader .undImg {

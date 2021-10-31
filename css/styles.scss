@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import "bootstrap.css";
 
 $ubReglr: 'Ubuntu-Reg', sans-serif;
 $ubBold: 'Ubuntu-Bold', sans-serif;
@@ -13,6 +14,10 @@ $prNovaBld: 'Proxima Nova-Bld', sans-serif;
 * {
   margin: 0;
   padding: 0;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 @-webkit-keyframes rotate-vert-center {
@@ -55,7 +60,8 @@ $prNovaBld: 'Proxima Nova-Bld', sans-serif;
 .moreMg {
   margin-top: 12rem;
 }
-.moreMgThird{
+
+.moreMgThird {
   margin-top: 9rem;
 }
 
@@ -98,8 +104,16 @@ a.btnCustMain {
   }
 }
 
-.container{
-  max-width: 1335px;
+.container {
+  max-width: 1315px;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+button:focus {
+  outline: none;
 }
 
 .nav-link {
@@ -110,7 +124,6 @@ a.btnCustMain {
 header {
   position: fixed;
   width: 100%;
-  background: transparent;
   z-index: 10;
 
   &.sticky {
@@ -130,23 +143,27 @@ header {
       text-decoration: none;
       font-size: 28px;
       text-shadow: 2px 0 13px rgba(64, 63, 63, 0.9);
-      .pcLogo{
+
+      .pcLogo {
         span {
           color: #8176ff;
         }
       }
-      span{
-        &.mobileLogo{
+
+      span {
+        &.mobileLogo {
           color: #f4f4f4;
           display: none;
         }
       }
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
       font-family: "Font Awesome 5 Pro", sans-serif;
       font-weight: 400;
       background-image: none !important;
-      &::before{
+
+      &::before {
         content: "\f0c9";
         color: #f8f9fa;
       }
@@ -318,8 +335,9 @@ header {
     font-family: $prNovaBld;
     text-transform: uppercase;
     margin-bottom: 45px;
-     span{
-      color:#6f42c1;
+
+    span {
+      color: #6f42c1;
     }
   }
 
@@ -552,9 +570,10 @@ header {
         margin-bottom: 15px;
         width: 100%;
         height: 100%;
-        fill:#826bb3;
+        fill: #826bb3;
       }
     }
+
     h3 {
       text-align: center;
       margin: 12px 0;
@@ -562,35 +581,41 @@ header {
       line-height: 1.4;
       color: #000219;
     }
-    p{
+
+    p {
       font-size: 16px;
       margin-bottom: 15px;
       text-align: center;
-      color:#4b5280;
+      color: #4b5280;
     }
-    &:hover{
-      svg{
+
+    &:hover {
+      svg {
         transform: translateY(-10px);
       }
     }
   }
 }
 
-footer{
+footer {
   padding: 0 0 100px;
-  background-image: linear-gradient(195deg, rgba(11,10,10,1) 0%, rgba(70,43,82,1) 47%, rgba(53,45,68,1) 100%);
-  a{
-    margin:70px 0 20px;
-    i{
+  background-image: linear-gradient(195deg, rgba(11, 10, 10, 1) 0%, rgba(70, 43, 82, 1) 47%, rgba(53, 45, 68, 1) 100%);
+
+  a {
+    margin: 70px 0 20px;
+
+    i {
       color: #fff;
       font-size: 60px;
       transition: 0.3s linear;
-      &:hover{
+
+      &:hover {
         color: #7a6bd4;
       }
     }
   }
-  span{
+
+  span {
     color: #fff;
     font-size: 18px;
     font-family: $WorkSans;

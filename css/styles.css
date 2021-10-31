@@ -1,8 +1,12 @@
 @charset "UTF-8";
 @import url(fonts.css);
+@import url(bootstrap.css);
 * {
   margin: 0;
   padding: 0; }
+
+body {
+  overflow-x: hidden; }
 
 @-webkit-keyframes rotate-vert-center {
   0% {
@@ -67,7 +71,13 @@ a.btnCustMain {
       transform: translateX(0); }
 
 .container {
-  max-width: 1335px; }
+  max-width: 1315px; }
+
+.navbar-toggler {
+  border: 0; }
+
+button:focus {
+  outline: none; }
 
 .nav-link {
   padding-right: 1.2rem !important;
@@ -76,7 +86,6 @@ a.btnCustMain {
 header {
   position: fixed;
   width: 100%;
-  background: transparent;
   z-index: 10; }
   header.sticky {
     background-color: #312935; }
