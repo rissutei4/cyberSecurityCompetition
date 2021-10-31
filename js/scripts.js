@@ -35,4 +35,3 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function (event) {
     event.relatedTarget // previous active tab
 })
 
-AOS.init();
