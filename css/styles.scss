@@ -53,7 +53,10 @@ $prNovaBld: 'Proxima Nova-Bld', sans-serif;
 }
 
 .moreMg {
-  margin-top: 7rem;
+  margin-top: 12rem;
+}
+.moreMgThird{
+  margin-top: 9rem;
 }
 
 a.btnCustMain {
@@ -251,7 +254,7 @@ header {
 
   nav.d-flex {
     position: absolute;
-    right: 69px;
+    left: 681px;
     top: 215px;
   }
 
@@ -315,6 +318,9 @@ header {
     font-family: $prNovaBld;
     text-transform: uppercase;
     margin-bottom: 45px;
+     span{
+      color:#6f42c1;
+    }
   }
 
   .threat {
@@ -425,7 +431,7 @@ header {
         padding-top: 10px;
 
         &:after {
-          content: "Министр внутренней безопасности США";
+          content: "Міністр внутрішньої безпеки США";
           display: block;
           font-size: 20px;
           font-family: $MontBld;

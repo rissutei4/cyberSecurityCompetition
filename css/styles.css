@@ -29,7 +29,10 @@
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.6);
     transform: translateY(0px) translateX(0px); } }
 .moreMg {
-  margin-top: 7rem; }
+  margin-top: 12rem; }
+
+.moreMgThird {
+  margin-top: 9rem; }
 
 a.btnCustMain {
   background-color: transparent;
@@ -168,7 +171,7 @@ header {
     position: relative; }
   .aboutUs nav.d-flex {
     position: absolute;
-    right: 69px;
+    left: 681px;
     top: 215px; }
   .aboutUs .nav-tabs .nav-link {
     color: #000;
@@ -213,6 +216,8 @@ header {
     font-family: "Proxima Nova-Bld", sans-serif;
     text-transform: uppercase;
     margin-bottom: 45px; }
+    .mainThreats h3.heading span {
+      color: #6f42c1; }
   .mainThreats .threat {
     background-color: #603baa;
     border-radius: 25px;
@@ -291,7 +296,7 @@ header {
       color: #fff;
       padding-top: 10px; }
       .quote .bigQuote .quoteAuthor p:after {
-        content: "Министр внутренней безопасности США";
+        content: "Міністр внутрішньої безпеки США";
         display: block;
         font-size: 20px;
         font-family: "Montserrat-Bold", sans-serif;
