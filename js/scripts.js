@@ -1,14 +1,16 @@
 document.addEventListener("mousemove", parallax);
+
 function parallax(e) {
     document.querySelectorAll(".object").forEach(function (move) {
 
-        var moving_value = move.getAttribute("data-value");
-        var x = (e.clientX * moving_value) / 250;
-        var y = (e.clientY * moving_value) / 250;
+        const moving_value = move.getAttribute("data-value");
+        const x = (e.clientX * moving_value) / 250;
+        let y = (e.clientY * moving_value) / 250;
 
         move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
     });
 }
+
 new TypeIt(".simpleUsage", {
     strings: "",
     speed: 50,
@@ -32,3 +34,5 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function (event) {
     event.target // newly activated tab
     event.relatedTarget // previous active tab
 })
+
+AOS.init();
